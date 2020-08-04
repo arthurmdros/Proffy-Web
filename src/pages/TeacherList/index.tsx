@@ -1,5 +1,6 @@
 import React from 'react';
 import PagHeader from '../../components/PagHeader';
+import TeacherItem from '../../components/TeacherItem';
 
 import './styles.css';
 
@@ -24,6 +25,14 @@ function TeacherList(){
                     </div>
                 </form>
             </PagHeader>
+
+            <main>
+                <TeacherItem />
+                <TeacherItem />
+                <TeacherItem />
+                <TeacherItem />
+                <TeacherItem />
+            </main>
         </div>
     )
 }
