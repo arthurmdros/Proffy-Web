@@ -1,44 +1,54 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Proffy
 
-## Available Scripts
+Versão web da aplicação desenvolvida na Next Level Week II oferecida pela RocketSeat.
 
-In the project directory, you can run:
+## Descrição
 
-### `yarn start`
+O sistema atua como uma plataforma de estudos online. Apresenta as seguintes funcionalidaes: o cadastro de professores e de suas aulas, criação de conexão entre alunos e professores.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Programas necessários
+  
+  - [Node](https://nodejs.org/en/download/)
+  + [Yarn](https://classic.yarnpkg.com/pt-BR/docs/install/#windows-stable)
+  
+## Layout
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Página inicial
 
-### `yarn test`
+![Home page][logo]
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[logo]: https://github.com/arthurmdros/Proffy-Web/blob/master/images/landing.png "Home page"
 
-### `yarn build`
+### Página de cadastro dos professores
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Create a teacher][logo1]
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+[logo1]: https://github.com/arthurmdros/Proffy-Web/blob/master/images/teacher_form.png "Create a teacher"
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Página de listagem dos professores
 
-### `yarn eject`
+![Teacher list][logo2]
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[logo2]: https://github.com/arthurmdros/Proffy-Web/blob/master/images/teacher_list.png "Teacher list"
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Execução:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Para executar o sistema siga os seguintes passos:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Importante: acesse o repositório abaixo para o download da API
 
-## Learn More
+  - [API](https://github.com/arthurmdros/Proffy-Server)
+  
+<dl>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  <dt>Executando FrontEnd:</dt>
+  <dd>1. Abra o prompt de comando</dd>
+  <dd>2. Acesse a pasta em que está guardada o projeto</dd>  
+  <dd>3. Execute o comando: yarn install</dd>
+  <dd>4. Execute o comando: yarn start</dd>
+</dl>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+####  Repostiório da versão mobile:
+
+  - [Mobile version](https://github.com/arthurmdros/Proffy-Mobile)
+  
